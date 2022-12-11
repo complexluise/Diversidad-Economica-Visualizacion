@@ -1,6 +1,6 @@
-# tiny-house-dashboard
+# Visualización Diversidad Economica 
 
-## Python Dev Tools Setup
+## Python Dev Herramientas
 To install the env, run `pipenv install --dev`  
 To initialize the git hooks, run `pipenv run pre-commit install`  
 If there are file that were committed before adding the git hooks, run `pipenv run pre-commit run --all-files`  
