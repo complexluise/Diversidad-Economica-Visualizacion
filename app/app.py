@@ -228,7 +228,7 @@ app.layout = html.Div(
                                     id="tiny-pie-graph",
                                     figure={
                                         "data": [trace3],
-                                        "layout": dict(
+                                        "layout.py": dict(
                                             title="Tiny House Property Types",
                                             font=dict(family="Courier New"),
                                             legend=dict(
@@ -297,7 +297,7 @@ def update_figure(selected_variable):
                 x=line_df["createdat"], y=line_df[selected_variable], mode="lines"
             )
         ],
-        "layout": go.Layout(
+        "layout.py": go.Layout(
             title=("Trending Tiny House Stats"), font=dict(family="Courier New")
         ),
     }
